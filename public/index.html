@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>cranberry</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+				<h1>cranberry</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">username</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="enter username..."
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room">room</label>
+						<select name="room" id="room">
+              <option value="elbrus family">elbrus family</option>
+							<option value="js">js</option>
+							<option value="general">general</option>
+              <option value="work">work</option>
+							<option value="codewars">codewars</option>
+							<option value="git">git</option>
+							<option value="random">random</option>
+              <option value="tech-news">tech-news</option>
+						</select>
+					</div>
+          <button type="submit" class="btn">join chat</button>
+        </form>
+        <form action="create.html">
+          <button type="submit" class="btn">create room</button>
+        </form>
+			</main>
+		</div>
+	</body>
+</html>
